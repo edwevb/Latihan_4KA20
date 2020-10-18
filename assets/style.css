@@ -1,0 +1,60 @@
+		body{
+			background: #00B4DB;
+			background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+			background: linear-gradient(to right, #0083B0, #00B4DB);
+		}
+
+		@media (max-width: 767.98px)
+		{
+			body{
+				background:none;
+			}
+
+			.menuList
+			{
+				margin-bottom: 1.75em;
+			}
+			.footerMiddle, .footerRight
+			{
+				text-align: left!important;
+			}
+		}
+
+		.row
+		{
+			margin: 10px 0;
+		}
+
+		.list-group-item:hover
+		{
+			background-color: #17a2b8;
+		}
+
+		th, td
+		{
+			text-align: center;
+		}
+
+		span.badge
+		{
+			color: #fff;
+		}
+
+		span.badge:hover
+		{
+			opacity: 0.8;
+		}
+
+		ul.noBullet
+		{
+			list-style-type: none;
+		}
+
+		ul li a
+		{
+			text-decoration: none!important;
+		}
+
+		.quote{
+			margin-top: 2em;
+		}
